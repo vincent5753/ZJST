@@ -1,0 +1,11 @@
+{
+  "apiVersion": "v1",
+  "kind": "ConfigMap",
+  "metadata": {
+    "name": "speedmaster",
+    "namespace": "default"
+  },
+  "data": {
+    "speedmaster": "node.pod"
+  }
+}

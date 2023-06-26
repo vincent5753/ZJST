@@ -1,0 +1,14 @@
+{
+  "apiVersion": "v1",
+  "kind": "ConfigMap",
+  "metadata": {
+    "name": "is-testing",
+    "namespace": "default",
+    "annotations": {
+      "kubectl.kubernetes.io/ttl": "1s"
+    }
+  },
+  "data": {
+    "is-testing": "0"
+  }
+}
